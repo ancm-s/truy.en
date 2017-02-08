@@ -1,0 +1,19 @@
+{
+    "name": "truy.en",
+    "description": "Notification new chapter while you facebook, movie, + * 18",
+    "author": "anCMS",
+    "manifest_version": 2,
+    "version": "1.0.0",
+    "icons": {
+        "128": "./img/icon.png"
+    },
+    "permissions": [
+        "*://truyentranhtuan.com/*",
+        "notifications",
+        "tabs",
+        "history"
+    ],
+    "background": {
+        "scripts": ["./res/main.js"]
+    }
+}
