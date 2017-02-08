@@ -44,4 +44,4 @@ const $interval = setInterval(function(config) {
     _fetch().then((chapter) =>
         chapter.map((chapter) => _check(chapter))
     );
-}, 18e8, {});
+}, 18e6, {});
